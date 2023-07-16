@@ -35,13 +35,13 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="?pagina=produtos">
-                  Produtos
+                <a class="nav-link" href="?pagina=cliente">
+                  Cadastrar Clientes
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="?pagina=clientes">
-                  Clientes
+                <a class="nav-link" href="?pagina=vendas">
+                  Cadastrar Vendas
                 </a>
               </li>
               <li class="nav-item">
@@ -75,11 +75,11 @@
               case 'pedidos':
                 include 'graficos/grafico_area.php';
                 break;
-              case 'produtos':
-                echo '<h2>Produtos</h2>';
+              case 'cliente':
+                include 'cadastro_cliente.php';
                 break;
-              case 'clientes':
-                echo '<h2>Clientes</h2>';
+              case 'vendas':
+                include 'cadastro_vendas.php';
                 break;
               default:
                 echo 'Nenhuma opção escolhida';

@@ -1,5 +1,5 @@
 <?php
-$dbname = 'graficos';
+$dbname = 'dash1';
 $user = 'root';
 $server = 'localhost';
 $dbpass = '';
