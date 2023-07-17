@@ -5,10 +5,10 @@ session_start();
 $mes = $_POST['mes'];
 $quantidade = $_POST['quantidade'];
 
-$sql = "INSERT INTO clientes (mes_cliente, quantidade_cliente) VALUES (:mes_cliente, :quantidade_cliente)";
+$sql = "INSERT INTO clientes (mes_cliente, quantidade) VALUES (:mes_cliente, :quantidade)";
 $sql = $conn->prepare($sql);
-$sql->bindValue(':mes_venda', $mes);
-$sql->bindValue(':quantidade_venda', $quantidade);
+$sql->bindValue(':mes_cliente', $mes);
+$sql->bindValue(':quantidade', $quantidade);
 $sql->execute();
 
 if($sql->rowCount() > 0) {

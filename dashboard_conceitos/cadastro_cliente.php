@@ -24,7 +24,7 @@ session_start();
       <a href="dashboard.php" role="button" class="btn btn-danger btn-sm">Voltar</a>
     </div>
     <h2>Cadastro de Clientes</h2>
-    <form action="cadastro_clientes2.php" method="POST">
+    <form action="cadastro_cliente2.php" method="POST">
       <div class="form-group">
         <label for="">Selecione o Mês</label>
         <select class="form-control" name="mes" id="">
