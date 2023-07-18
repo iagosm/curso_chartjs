@@ -82,7 +82,7 @@
                 include 'cadastro_vendas.php';
                 break;
               default:
-                echo 'Nenhuma opção escolhida';
+                include 'painel.php';
                 break;
             }
           }
