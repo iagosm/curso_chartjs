@@ -25,7 +25,7 @@
           <div class="sidebar-sticky">
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link active" href="https://getbootstrap.com/docs/4.1/examples/dashboard/#">
+                <a class="nav-link active" href="">
                  Dashboard <span class="sr-only">(curret)</span>
                 </a>
               </li>
@@ -83,6 +83,7 @@
                 break;
               default:
                 include 'painel.php';
+                include 'painel2.php';
                 break;
             }
           }
