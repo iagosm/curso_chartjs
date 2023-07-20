@@ -25,13 +25,8 @@
     </style>
 
   <body>
-    <nav class="navbar navbar-dark bg-dark flex-md-nowrap p-0 shadow d-none d-sm-block">
-      <a class="navbar-brand col-sm-3 col-md-2 mr-0 title-dash" href="#">Dashboard</a>
-      <ul class="navbar-nav px-3">
-        <li class="nav-item text-nowrap">
-          <a class="nav-link" href="https://getbootstrap.com/docs/4.1/examples/dashboard/#">Sign out</a>
-        </li>
-      </ul>
+    <nav class="navbar navbar-light bg-light flex-md-nowrap p-0 d-none d-sm-block">
+      <a class="navbar col-sm-3 col-md-2 mr-0 title-dash" href="#">Dashboard</a>
     </nav>
 
     <div class="container-fluid">
