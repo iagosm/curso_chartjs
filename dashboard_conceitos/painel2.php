@@ -35,8 +35,8 @@
 
     <script type="text/javascript">
           google.charts.load("current", {packages:["corechart"]});
-          google.charts.setOnLoadCallback(drawChart);
-          function drawChart() {
+          google.charts.setOnLoadCallback(drawChart2);
+          function drawChart2() {
             var data = google.visualization.arrayToDataTable([
               ['Mês', 'Quantidade'],
               <?php 
@@ -64,11 +64,11 @@
   <body>
     <div class="container-fluid mt-5" style="background-color: #f3f3f3;">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-8 gc">
           <h4>Gráfico de Clientes</h4>
           <div id="curve_chart"></div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 gv">
           <h4>Gráfico de Vendas</h4>
           <div id="piechart" style="width:290px"></div>
         </div>
