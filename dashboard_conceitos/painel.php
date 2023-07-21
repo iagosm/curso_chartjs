@@ -33,7 +33,7 @@ include 'conexao/conexao.php';
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-4">
-        <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+        <div class="card text-bg-primary mb-3 sombra" style="max-width: 18rem;">
           <div class="card-header">Total Clientes / Ano</div>
           <div class="card-body">
             <h5 class="card-title text-center" style="font-size:35px;"><?php echo totalClientes($conn)?></h5>
@@ -41,7 +41,7 @@ include 'conexao/conexao.php';
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+        <div class="card text-bg-primary mb-3 sombra" style="max-width: 18rem;">
           <div class="card-header">Total Arrecadado</div>
           <div class="card-body">
             <h5 class="card-title text-center" style="font-size:35px;"><?php echo totalArrecadado($conn)?></h5>
@@ -49,7 +49,7 @@ include 'conexao/conexao.php';
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+        <div class="card text-bg-primary mb-3 sombra" style="max-width: 18rem;">
           <div class="card-header">Total Vendas</div>
           <div class="card-body">
             <h5 class="card-title text-center" style="font-size:35px;"><?php echo totalVendas($conn)?></h5>

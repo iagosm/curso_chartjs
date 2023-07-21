@@ -7,9 +7,16 @@
     <meta name="author" content="">
     <link rel="stylesheet" href="dashboard.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Dashboard Conceitos</title>
   
     <style>
+
+      nav .links {
+        text-decoration: none;
+        color: #fff !important;
+      }
+
       @media only screen and (max-width: 600px) {
         body {
           width:350px;
@@ -25,18 +32,36 @@
     </style>
 
   <body>
-    <nav class="navbar navbar-light bg-light flex-md-nowrap p-0 d-none d-sm-block">
-      <a class="navbar col-sm-3 col-md-2 mr-0 title-dash" href="#">Dashboard</a>
+    <nav class="navbar navbar-expand-lg" style="background-color: #EC5E63;">
+      <a class="nav-link" href="#" style="text-decoration: none; color: #fff;"><img src="assets/icon.png" alt="" style="height:40px; width:40px;"> Dashboard</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link links" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link links" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link links" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link links" href="#">Disabled</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-
     <div class="container-fluid">
       <div class="row">
-        <nav class="col-md-2 d-none d-md-block bg-light sidebar pt-0">
+        <nav class="col-md-2 d-none d-md-block sidebar pt-0">
           <div class="sidebar-sticky">
             <ul class="nav flex-column">
               <li class="nav-item">
                 <a class="nav-link active" href="">
-                 Dashboard <span class="sr-only">(curret)</span>
+                <i class="fa fa-tachometer" aria-hidden="true"></i> Dashboard
                 </a>
               </li>
               <li class="nav-item">
@@ -46,22 +71,12 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="?pagina=cliente">
-                  Cadastrar Clientes
+                <i class="fa fa-user" aria-hidden="true"></i> Cadastrar Clientes
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="?pagina=vendas">
                   Cadastrar Vendas
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="?pagina=relatorios">
-                  Relatórios
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="?pagina=integracoes">
-                  Integrações
                 </a>
               </li>
             </ul>
